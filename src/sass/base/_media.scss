@@ -20,11 +20,28 @@
             width: 216px;
         }
     }
+    .consultation{
+        padding: 100px 28px 92px 28px;
+        &__descr{
+            font-size: 18px;
+        }
+    }
+    .title_left{
+        font-size: 32px;
+    }
 }
 
 @media (max-width: 767px){
     .header__official_media{
         display: none;
+    }
+    .consultation{
+        &__descr{
+            display: none;
+        }
+    }
+    .title_left{
+        font-size: 25px;
     }
 }
 
@@ -91,6 +108,15 @@
         }
         &__descr{
             margin-top: 10px;
+        }
+    }
+    .consultation{
+        min-height: 580px;
+        .feed-form{
+            width: 260px;
+        }
+        .title_left{
+            font-size: 18px;
         }
     }
 }
